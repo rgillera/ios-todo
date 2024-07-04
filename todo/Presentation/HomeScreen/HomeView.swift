@@ -7,17 +7,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
+    
+    
+    struct Output {
+        var goToAddScreen: () -> Void
+    }
+    
+    var output: Output
+    
     var body: some View {
+        
         VStack(alignment: .leading, spacing: 0.0) {
             ActionView()
             Spacer()
             TaskListView()
-          
+            
         }.padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView(output: .init(goToAddScreen: {}))
 }

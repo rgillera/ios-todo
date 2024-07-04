@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8EB5CC42C34DE470060F7D6 /* todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CC32C34DE470060F7D6 /* todoApp.swift */; };
-		B8EB5CC62C34DE470060F7D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CC52C34DE470060F7D6 /* ContentView.swift */; };
+		B80E38812C362FA5000EBB74 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E38802C362FA5000EBB74 /* AppCoordinator.swift */; };
+		B80E38832C3632D4000EBB74 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E38822C3632D4000EBB74 /* MainView.swift */; };
+		B80E38852C36359A000EBB74 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E38842C36359A000EBB74 /* AuthenticationCoordinator.swift */; };
+		B80E38892C363BF8000EBB74 /* todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E38882C363BF8000EBB74 /* todoApp.swift */; };
+		B8EB5CC62C34DE470060F7D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CC52C34DE470060F7D6 /* HomeView.swift */; };
 		B8EB5CC82C34DE4A0060F7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EB5CC72C34DE4A0060F7D6 /* Assets.xcassets */; };
 		B8EB5CCB2C34DE4A0060F7D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EB5CCA2C34DE4A0060F7D6 /* Preview Assets.xcassets */; };
 		B8EB5CD52C34DE4B0060F7D6 /* todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CD42C34DE4B0060F7D6 /* todoTests.swift */; };
@@ -19,6 +22,7 @@
 		B8EB5CF82C34EB060060F7D6 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CF72C34EB060060F7D6 /* HomeCoordinator.swift */; };
 		B8EB5CFB2C34EB7C0060F7D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CFA2C34EB7C0060F7D6 /* LoginView.swift */; };
 		B8EB5CFD2C34EB980060F7D6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CFC2C34EB980060F7D6 /* RegisterView.swift */; };
+		B8EB5D002C34F4810060F7D6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB5CFF2C34F4810060F7D6 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B80E38802C362FA5000EBB74 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B80E38822C3632D4000EBB74 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B80E38842C36359A000EBB74 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		B80E38882C363BF8000EBB74 /* todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoApp.swift; sourceTree = "<group>"; };
 		B8EB5CC02C34DE470060F7D6 /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8EB5CC32C34DE470060F7D6 /* todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoApp.swift; sourceTree = "<group>"; };
-		B8EB5CC52C34DE470060F7D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8EB5CC52C34DE470060F7D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B8EB5CC72C34DE4A0060F7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8EB5CCA2C34DE4A0060F7D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8EB5CD02C34DE4B0060F7D6 /* todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +61,7 @@
 		B8EB5CF72C34EB060060F7D6 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		B8EB5CFA2C34EB7C0060F7D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B8EB5CFC2C34EB980060F7D6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		B8EB5CFF2C34F4810060F7D6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B80E387F2C362F4B000EBB74 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B80E38802C362FA5000EBB74 /* AppCoordinator.swift */,
+				B80E38822C3632D4000EBB74 /* MainView.swift */,
+				B8EB5CFE2C34EB9F0060F7D6 /* AuthenticationScreen */,
+				B8EB5CF92C34EB380060F7D6 /* HomeScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		B8EB5CB72C34DE460060F7D6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +123,10 @@
 		B8EB5CC22C34DE470060F7D6 /* todo */ = {
 			isa = PBXGroup;
 			children = (
-				B8EB5CC32C34DE470060F7D6 /* todoApp.swift */,
-				B8EB5CFE2C34EB9F0060F7D6 /* AuthenticationScreen */,
-				B8EB5CF92C34EB380060F7D6 /* HomeScreen */,
+				B80E387F2C362F4B000EBB74 /* Presentation */,
 				B8EB5CC72C34DE4A0060F7D6 /* Assets.xcassets */,
 				B8EB5CC92C34DE4A0060F7D6 /* Preview Content */,
+				B80E38882C363BF8000EBB74 /* todoApp.swift */,
 			);
 			path = todo;
 			sourceTree = "<group>";
@@ -142,7 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				B8EB5CF72C34EB060060F7D6 /* HomeCoordinator.swift */,
-				B8EB5CC52C34DE470060F7D6 /* ContentView.swift */,
+				B8EB5CC52C34DE470060F7D6 /* HomeView.swift */,
+				B8EB5CFF2C34F4810060F7D6 /* AddView.swift */,
 				B8EB5CF52C34E8640060F7D6 /* TaskListView.swift */,
 				B8EB5CF32C34E81B0060F7D6 /* ActionView.swift */,
 			);
@@ -152,6 +171,7 @@
 		B8EB5CFE2C34EB9F0060F7D6 /* AuthenticationScreen */ = {
 			isa = PBXGroup;
 			children = (
+				B80E38842C36359A000EBB74 /* AuthenticationCoordinator.swift */,
 				B8EB5CFA2C34EB7C0060F7D6 /* LoginView.swift */,
 				B8EB5CFC2C34EB980060F7D6 /* RegisterView.swift */,
 			);
@@ -288,12 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80E38892C363BF8000EBB74 /* todoApp.swift in Sources */,
 				B8EB5CFB2C34EB7C0060F7D6 /* LoginView.swift in Sources */,
 				B8EB5CF42C34E81B0060F7D6 /* ActionView.swift in Sources */,
-				B8EB5CC62C34DE470060F7D6 /* ContentView.swift in Sources */,
+				B8EB5CC62C34DE470060F7D6 /* HomeView.swift in Sources */,
+				B80E38832C3632D4000EBB74 /* MainView.swift in Sources */,
 				B8EB5CFD2C34EB980060F7D6 /* RegisterView.swift in Sources */,
+				B8EB5D002C34F4810060F7D6 /* AddView.swift in Sources */,
 				B8EB5CF82C34EB060060F7D6 /* HomeCoordinator.swift in Sources */,
-				B8EB5CC42C34DE470060F7D6 /* todoApp.swift in Sources */,
+				B80E38852C36359A000EBB74 /* AuthenticationCoordinator.swift in Sources */,
+				B80E38812C362FA5000EBB74 /* AppCoordinator.swift in Sources */,
 				B8EB5CF62C34E8640060F7D6 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
